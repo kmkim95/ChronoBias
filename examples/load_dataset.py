@@ -7,7 +7,7 @@ Dataset: https://huggingface.co/datasets/YOUR_HF_USERNAME/ChronoBias
 from datasets import load_dataset
 
 # ── 1. Load the full dataset ──────────────────────────────────────────────────
-dataset = load_dataset("trustmllab/ChronoBias")
+dataset = load_dataset("trustml-users/ChronoBias")
 print(dataset)
 # DatasetDict({
 #     train: Dataset({
