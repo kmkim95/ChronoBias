@@ -27,7 +27,7 @@ The dataset covers football league standings from multiple international leagues
 
 ## Dataset
 
-The dataset is hosted on HuggingFace: [trustmllab/ChronoBias](https://huggingface.co/datasets/YOUR_HF_USERNAME/ChronoBias)
+The dataset is hosted on HuggingFace: [trustmllab/ChronoBias](https://huggingface.co/datasets/trustmllab/ChronoBias)
 
 ### Dataset Statistics
 
