@@ -34,9 +34,8 @@ The dataset is hosted on HuggingFace: [trustmllab/ChronoBias](https://huggingfac
 | Field | Value |
 |---|---|
 | Total examples | 13,502 |
-| Leagues covered | 6 (EPL, K-League1, Saudi Pro League, Ligue 1 Algeria, Serie A Brazil, Primera Liga Spain) |
-| Question types | 7 (top_1, top_3, top_5, bottom_1, bottom_3, bottom_5, static) |
-| Time change types | 3 (never_changing, slow_changing, moderate_to_fast_changing) |
+| Group | 6 (EPL, K-League1, Saudi Pro League, Ligue 1 Algeria, Serie A Brazil, Primera Liga Spain) |
+| Time-sensitivity | 3 (never_changing, slow_changing, moderate_to_fast_changing) |
 
 ### Data Fields
 
