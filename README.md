@@ -1,7 +1,7 @@
 # ChronoBias: A Benchmark for Evaluating Time-conditional Group Bias in LLMs
 
 [![Paper](https://img.shields.io/badge/Paper-EMNLP%202025-blue)](https://aclanthology.org/2025.findings-emnlp.405/)
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/YOUR_HF_USERNAME/ChronoBias)
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/trustml-users/ChronoBias)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 This repository contains the **ChronoBias** benchmark dataset and usage examples, corresponding to the following paper:
@@ -22,6 +22,8 @@ This repository contains the **ChronoBias** benchmark dataset and usage examples
 - **Time-sensitivity Bias**: Bias in the degree of time-sensitivity across groups
 
 The dataset covers football league standings from multiple international leagues, enabling controlled evaluation of LLM performance across groups (leagues) and time periods.
+
+![Benchmark Overview](assets/benchmark_vis-1.png)
 
 ---
 
@@ -97,7 +99,7 @@ pip install datasets
 from datasets import load_dataset
 
 # Load the full dataset
-dataset = load_dataset("YOUR_HF_USERNAME/ChronoBias")
+dataset = load_dataset("trustml-users/ChronoBias")
 
 print(dataset)
 # DatasetDict({
